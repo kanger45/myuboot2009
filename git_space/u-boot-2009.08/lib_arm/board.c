@@ -470,7 +470,7 @@ extern void davinci_eth_set_mac_addr (const u_int8_t *addr);
 	for (;;) {
 		main_loop ();
 	}
-
+        printf("after main_loop!\n");
 	/* NOTREACHED - no way out of command loop except booting */
 }
 
